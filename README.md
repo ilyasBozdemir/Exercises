@@ -1,1 +1,1 @@
-# PatikaApp
+# Exercises
