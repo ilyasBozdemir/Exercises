@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\bin\Debug\net6.0\sinif-ornegi.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\bin\Debug\net6.0\sinif-ornegi.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\bin\Debug\net6.0\sinif-ornegi.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\bin\Debug\net6.0\sinif-ornegi.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\bin\Debug\net6.0\sinif-ornegi.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\refint\sinif-ornegi.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\sinif-ornegi.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\sinif-ornegi\sinif-ornegi\obj\Debug\net6.0\ref\sinif-ornegi.dll
