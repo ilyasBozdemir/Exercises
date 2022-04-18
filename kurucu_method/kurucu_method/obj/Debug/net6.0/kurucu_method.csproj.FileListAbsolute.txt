@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\bin\Debug\net6.0\kurucu_method.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\bin\Debug\net6.0\kurucu_method.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\bin\Debug\net6.0\kurucu_method.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\bin\Debug\net6.0\kurucu_method.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\bin\Debug\net6.0\kurucu_method.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\refint\kurucu_method.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\kurucu_method.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\kurucu_method\kurucu_method\obj\Debug\net6.0\ref\kurucu_method.dll
