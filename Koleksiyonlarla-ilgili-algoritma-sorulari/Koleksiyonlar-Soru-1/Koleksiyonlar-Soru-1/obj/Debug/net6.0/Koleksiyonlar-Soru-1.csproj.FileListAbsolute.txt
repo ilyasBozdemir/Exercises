@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\net6.0\Koleksiyonlar-Soru-1.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\net6.0\Koleksiyonlar-Soru-1.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\net6.0\Koleksiyonlar-Soru-1.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\net6.0\Koleksiyonlar-Soru-1.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\bin\Debug\net6.0\Koleksiyonlar-Soru-1.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\refint\Koleksiyonlar-Soru-1.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\Koleksiyonlar-Soru-1.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Koleksiyonlarla-ilgili-algoritma-sorulari\Koleksiyonlar-Soru-3\Koleksiyonlar-Soru-1\Koleksiyonlar-Soru-1\obj\Debug\net6.0\ref\Koleksiyonlar-Soru-1.dll
