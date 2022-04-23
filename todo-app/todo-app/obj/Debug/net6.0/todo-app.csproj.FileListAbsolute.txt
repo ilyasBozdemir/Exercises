@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\bin\Debug\net6.0\todo-app.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\bin\Debug\net6.0\todo-app.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\bin\Debug\net6.0\todo-app.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\bin\Debug\net6.0\todo-app.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\bin\Debug\net6.0\todo-app.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\refint\todo-app.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\todo-app.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\todo-app\todo-app\obj\Debug\net6.0\ref\todo-app.dll
