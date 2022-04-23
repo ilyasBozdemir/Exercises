@@ -1,6 +1,6 @@
 ﻿using Phonebook_App;
-string[] ozellikler = 
-    { 
+string[] ozellikler =
+    {
        "Yeni Numara Kaydetmek",
        "Varolan Numarayı Silmek",
        "Varolan Numarayı Güncelleme",
@@ -141,12 +141,32 @@ guncellemeOnay:
     #region case 4:
     case 4:
         Console.Clear();
-        operations.RehberiListele(SiralamaKriteri.A_Z);
+        SiralamaKriteri siralamaKriteri = SiralamaKriteri.A_Z;
+        Console.WriteLine("Lütfen sıralama kriteri seçin: ");
+        Console.WriteLine("**********************************************");
+        Console.WriteLine("[A-Z] seçimi için (1)");
+        Console.WriteLine("[Z-A] seçimi için (2)");
+        string kriter = Console.ReadLine();
+        if (kriter == "1")
+        {
+             operations.RehberiListele(SiralamaKriteri.A_Z);
+        }
+        else if (kriter == "2")
+        {
+            operations.RehberiListele(SiralamaKriteri.Z_A);
+        }
         break;
     #endregion
     #region  case 5:
     case 5:
-        operations.ListedeAra(Kriter.TelefonNumarasi, "576");
+        Console.WriteLine("Arama yapmak istediğiniz tipi seçiniz.");
+        Console.WriteLine("**********************************************");
+        Console.WriteLine("İsim veya soyisime göre arama yapmak için: (1)");
+        Console.WriteLine("Telefon numarasına göre arama yapmak için: (2)");
+        kriter = Console.ReadLine();
+  
+        Kriter secimKriter = (kriter == "1") ? Kriter.IsimveyaSoyisim : Kriter.TelefonNumarasi;
+        operations.ListedeAra(secimKriter, kriter);
         break;
     #endregion
     #region default:
