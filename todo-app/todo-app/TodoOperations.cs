@@ -10,7 +10,7 @@ namespace todo_app
     public class TodoOperations
     {
         ToDos toDos = new ToDos();
-        string[] boards = { "TODO", "IN PROGRESS", "DONE" }; 
+        string[] boards = { "TODO", "IN PROGRESS", "DONE" };
         string bosText = " ~ BOŞ ~ ";
         public void BoardListele()
         {
@@ -34,22 +34,26 @@ namespace todo_app
             StringBuilder sbToDo = new StringBuilder();
             StringBuilder sbInProgress = new StringBuilder();
             StringBuilder sbDone = new StringBuilder();
+
             sbToDo.AppendLine($"{boards[0]} Line");
             sbToDo.AppendLine("************************");
+
             sbInProgress.AppendLine($"{boards[1]} Line");
             sbInProgress.AppendLine("************************");
+
             sbDone.AppendLine($"{boards[2]} Line");
             sbDone.AppendLine("************************");
+
             int sToDo = 0, sInProgress = 0, sDone = 0;//sayaclar
 
             foreach (var item in toDoList)
             {
-                string baslik = "Başlık      : " + item.Baslik;
-                string icerik = "İçerik      : " + item.Icerik;
-                string kisi = "Atanan Kişi : " + item.AtananKisi;
-                string büyüklük = "Büyüklük    : " + item.Buyukluk;
+                string baslik = $"Başlık      : {item.Baslik}";
+                string icerik = $"İçerik      : {item.Icerik}";
+                string kisi = $"Atanan Kişi : {item.AtananKisi.Ad}";
+                string buyukluk = $"Büyüklük    : {item.Buyukluk}";
                 Board board = item.Board;
-                string todo = $"{baslik}\n{icerik}\n{kisi}\n{büyüklük}\n-";
+                string todo = $"{baslik}\n{icerik}\n{kisi}\n{buyukluk}\n-";
                 switch (board)
                 {
                     case Board.TODO:
@@ -66,7 +70,7 @@ namespace todo_app
                         break;
                 }
             }
-            
+
             if (sToDo == 0)
                 sbToDo.AppendLine(bosText);
 
@@ -84,16 +88,102 @@ namespace todo_app
 
         public void BoardaKartEkle()
         {
+            ToDo toDo = new ToDo();
+            Console.Write("Başlık Giriniz                                  : ");
+            string baslik = Console.ReadLine();
 
-        }
-        public void BoarddanKartSil()
-        {
+            Console.Write("İçerik Giriniz                                  : ");
+            string icerik = Console.ReadLine();
 
+            Console.Write("Büyüklük Seçiniz -> XS(1),S(2),M(3),L(4),XL(5)  : ");
+            string buyukluk = Console.ReadLine();
+            Buyukluk buyuklukEnum = Buyukluk.XS;
+            switch (int.Parse(buyukluk))
+            {
+                case 1:
+                    buyuklukEnum = Buyukluk.XS;
+                    break;
+                case 2:
+                    buyuklukEnum = Buyukluk.S;
+                    break;
+                case 3:
+                    buyuklukEnum = Buyukluk.M;
+                    break;
+                case 4:
+                    buyuklukEnum = Buyukluk.L;
+                    break;
+                case 5:
+                    buyuklukEnum = Buyukluk.XL;
+                    break;
+            }
+            Console.Write("Kişi Seçiniz                                    : ");
+            string kisi = Console.ReadLine();
+            var takimUyesi = ToDos.kisiList.Where(k => k.Ad == kisi).FirstOrDefault();
+            if (takimUyesi == null)
+            {
+                Console.WriteLine("Hatalı girişler yaptınız!");
+                Console.Clear();
+                BoardListele();
+            }
+            else
+            {
+                toDo.Baslik = baslik;
+                toDo.Icerik = icerik;
+                toDo.AtananKisi = takimUyesi;
+                toDo.Board = Board.TODO;
+                toDo.Buyukluk = buyuklukEnum;
+                toDos.AddTodo(toDo);
+            }
         }
         public void KartTasi()
         {
-
+            basaDon:
+            Console.Clear();
+            Console.WriteLine("Öncelikle taşımak istediğiniz kartı seçmeniz gerekiyor.");
+            Console.Write("Lütfen kart başlığını yazınız:");
+            string baslik = Console.ReadLine();
+            var _baslik = ToDos.toDoList.Where(b => b.Baslik == baslik).FirstOrDefault();
+            if (_baslik is null)
+            {
+                Console.WriteLine("Hatalı girişler yaptınız!");
+                Console.WriteLine("* İşlemi sonlandırmak için : (1)");
+                Console.WriteLine("* Yeniden denemek için : (2)");
+                int sec;
+                int.TryParse(Console.ReadLine(), out sec);
+                switch (sec)
+                {
+                    case 1:
+                        Console.Clear();
+                        BoardListele();
+                        break;
+                    case 2:
+                        goto basaDon;
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Hatalı seçim");
+                        goto basaDon;
+                        break;
+                }
+            }
+            else
+            {
+                ToDos.toDoList.Remove(_baslik);
+                Console.WriteLine("todo basarıyla silindi.");
+                Console.Clear();
+                BoardListele();
+            }
+        }
+        public void BoarddanKartSil()
+        {
+            Console.WriteLine("Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.");
+            Console.Write("Lütfen kart başlığını yazınız:");
+            string baslik = Console.ReadLine();
+            var _baslik = ToDos.toDoList.Where(b => b.Baslik == baslik).FirstOrDefault();
+            if (_baslik is null)
+            {
+                Console.WriteLine("Hatalı girişler yaptınız!");
+            }
         }
     }
-
 }

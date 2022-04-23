@@ -1,4 +1,4 @@
-﻿
+﻿using todo_app;
 string[] ozellikler = { "Board Listelemek", "Board'a Kart Eklemek", "Board'dan Kart Silmek", "Kart Taşımak" };
 anaSecim: 
 byte sayac = 0;
@@ -25,13 +25,13 @@ switch (secim)
     case 3:
         Console.Clear();
         todo.BoarddanKartSil();
-        break; 
+        break;
     case 4:
         Console.Clear();
         todo.KartTasi();
         break;
-    default:Console.Clear();
+    default:
+        Console.Clear();
         Console.WriteLine("Menüden Seçim Yapınız.");
         goto anaSecim;
-        break;
 }

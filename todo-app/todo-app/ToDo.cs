@@ -16,7 +16,7 @@ namespace todo_app
         }
         public string Baslik { get; set; }
         public string Icerik { get; set; }
-        public string AtananKisi { get; set; }
+        public TakimUyesi AtananKisi { get; set; }
         public Buyukluk Buyukluk { get; set; }
         public Board Board { get; set; }
 
@@ -34,37 +34,48 @@ namespace todo_app
             get { return toDoList; }
             private set { toDoList = value; }
         }
+        public static List<TakimUyesi> kisiList;
+        public List<TakimUyesi> KisiList
+        {
+            get { return kisiList; }
+            private set { kisiList = value; }
+        }
         public ToDos()
         {
             ToDoList = new List<ToDo>();
-            ToDoList.Add(new ToDo()
+            KisiList = new List<TakimUyesi>();
+            KisiList.Add(new TakimUyesi() { Ad = "Kisi 1" });
+            KisiList.Add(new TakimUyesi() { Ad = "Kisi 2" });
+            KisiList.Add(new TakimUyesi() { Ad = "Kisi 2" });
+            KisiList.Add(new TakimUyesi() { Ad = "Kisi 3" });
+            AddTodo(new ToDo()
             {
                 Baslik = "Baslik 1",
-                AtananKisi = "Kisi 1",
+                AtananKisi = KisiList[0],
                 Icerik = "icerik 1",
                 Board = Board.TODO,
                 Buyukluk = Buyukluk.M
             });
-            ToDoList.Add(new ToDo()
+            AddTodo(new ToDo()
             {
                 Baslik = "Baslik 2",
-                AtananKisi = "Kisi 2",
+                AtananKisi = KisiList[1],
                 Icerik = "icerik 2",
                 Board = Board.TODO,
                 Buyukluk = Buyukluk.XS
             });
-            ToDoList.Add(new ToDo()
+            AddTodo(new ToDo()
             {
                 Baslik = "Baslik 3",
-                AtananKisi = "Kisi 3",
+                AtananKisi = KisiList[2],
                 Icerik = "icerik 3",
                 Board = Board.IN_PROGRESS,
                 Buyukluk = Buyukluk.L
             });
-            ToDoList.Add(new ToDo()
+            AddTodo(new ToDo()
             {
                 Baslik = "Baslik 4",
-                AtananKisi = "Kisi 4",
+                AtananKisi = KisiList[2],
                 Icerik = "icerik 4",
                 Board = Board.IN_PROGRESS,
                 Buyukluk = Buyukluk.XL
@@ -77,12 +88,22 @@ namespace todo_app
     }
     public class TakimUyesi
     {
-        public int Id { get; set; }
-        public int Ad { get; set; }
+        public static int sayac = 0;
+        public int Id
+        {
+            get { return sayac; }
+            private set { sayac = value; }
+        }  
+        public string Ad { get; set; }
+        public TakimUyesi()
+        {
+            sayac += 1;
+            Id = sayac;
+        }
     }
     public enum Buyukluk
     {
-        XS,
+        XS=1,
         S,
         M,
         L,
