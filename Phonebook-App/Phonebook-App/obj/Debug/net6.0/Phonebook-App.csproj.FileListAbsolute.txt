@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\bin\Debug\net6.0\Phonebook-App.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\bin\Debug\net6.0\Phonebook-App.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\bin\Debug\net6.0\Phonebook-App.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\bin\Debug\net6.0\Phonebook-App.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\bin\Debug\net6.0\Phonebook-App.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\refint\Phonebook-App.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\Phonebook-App.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\Phonebook-App\Phonebook-App\obj\Debug\net6.0\ref\Phonebook-App.dll
