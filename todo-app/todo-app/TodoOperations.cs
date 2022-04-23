@@ -142,8 +142,80 @@ namespace todo_app
             Console.WriteLine("Öncelikle taşımak istediğiniz kartı seçmeniz gerekiyor.");
             Console.Write("Lütfen kart başlığını yazınız:");
             string baslik = Console.ReadLine();
-            var _baslik = ToDos.toDoList.Where(b => b.Baslik == baslik).FirstOrDefault();
-            if (_baslik is null)
+            var _toDo = ToDos.toDoList.Where(b => b.Baslik == baslik).FirstOrDefault();
+            if (_toDo is null)
+            {
+                Console.WriteLine("Hatalı girişler yaptınız!");
+                Console.WriteLine("* İşlemi sonlandırmak için : (1)");
+                Console.WriteLine("* Yeniden denemek için : (2)");
+                int sec;
+                int.TryParse(Console.ReadLine(), out sec);
+                switch (sec)
+                {
+                    case 1:
+                        Console.Clear();
+                        BoardListele();
+                        break;
+                    case 2:
+                        goto basaDon;
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Hatalı seçim");
+                        Thread.Sleep(2000);
+                        goto basaDon;
+                        break;
+                }
+            }
+            else
+            {
+basla:
+                Console.WriteLine("\nBulunan Kart Bilgileri:");
+                Console.WriteLine("**************************************");
+
+                string _baslik = $"Başlık      : {_toDo.Baslik}";
+                string _icerik = $"İçerik      : {_toDo.Icerik}";
+                string _kisi = $"Atanan Kişi : {_toDo.AtananKisi.Ad}";
+                string _buyukluk = $"Büyüklük    : {_toDo.Buyukluk}";
+                string _line = $"Line        : {_toDo.Board}";
+
+                string todo = $"{baslik}\n{_icerik}\n{_kisi}\n{_buyukluk}\n{_line}\n-";
+                Console.WriteLine($"{todo}\n");
+                Console.WriteLine("Lütfen taşımak istediğiniz Line'ı seçiniz:");
+                Console.WriteLine("(1) TODO\n(2) IN PROGRESS\n(3) DONE\n");
+                int sec;
+                int.TryParse(Console.ReadLine(), out sec);
+                switch (sec)
+                {
+                    case 1:
+                        _toDo.Board = Board.TODO;
+                        break;
+                    case 2:
+                        _toDo.Board = Board.IN_PROGRESS;
+                        break;
+                    case 3:
+                        _toDo.Board = Board.DONE;
+                        break;
+                    default:
+                        Console.Clear();
+                        Console.WriteLine("Hatalı seçim");
+                        goto basla;
+                }
+                Console.WriteLine("Taşıma İşlemi Başarılı");
+                Thread.Sleep(3000);
+                Console.Clear();
+                BoardListele();
+
+            }
+        }
+        public void BoarddanKartSil()
+        {
+            basaDon:
+            Console.WriteLine("Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.");
+            Console.Write("Lütfen kart başlığını yazınız:");
+            string baslik = Console.ReadLine();
+            var _toDo = ToDos.toDoList.Where(b => b.Baslik == baslik).FirstOrDefault();
+            if (_toDo is null)
             {
                 Console.WriteLine("Hatalı girişler yaptınız!");
                 Console.WriteLine("* İşlemi sonlandırmak için : (1)");
@@ -168,21 +240,11 @@ namespace todo_app
             }
             else
             {
-                ToDos.toDoList.Remove(_baslik);
+                ToDos.toDoList.Remove(_toDo);
                 Console.WriteLine("todo basarıyla silindi.");
+                Thread.Sleep(3000);
                 Console.Clear();
                 BoardListele();
-            }
-        }
-        public void BoarddanKartSil()
-        {
-            Console.WriteLine("Öncelikle silmek istediğiniz kartı seçmeniz gerekiyor.");
-            Console.Write("Lütfen kart başlığını yazınız:");
-            string baslik = Console.ReadLine();
-            var _baslik = ToDos.toDoList.Where(b => b.Baslik == baslik).FirstOrDefault();
-            if (_baslik is null)
-            {
-                Console.WriteLine("Hatalı girişler yaptınız!");
             }
         }
     }

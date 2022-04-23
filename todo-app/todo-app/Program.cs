@@ -1,5 +1,4 @@
-﻿using todo_app;
-string[] ozellikler = { "Board Listelemek", "Board'a Kart Eklemek", "Board'dan Kart Silmek", "Kart Taşımak" };
+﻿string[] ozellikler = { "Board Listelemek", "Board'a Kart Eklemek", "Board'dan Kart Silmek", "Kart Taşımak" };
 anaSecim: 
 byte sayac = 0;
 Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz :)");
@@ -35,3 +34,4 @@ switch (secim)
         Console.WriteLine("Menüden Seçim Yapınız.");
         goto anaSecim;
 }
+Console.ReadLine();
