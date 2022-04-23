@@ -8,7 +8,6 @@ class Person
     private string name;
     private string surName;
     private string nameSurName;
-
     private int age = 0;
     public int Age
     {
@@ -21,11 +20,7 @@ class Person
                 Console.WriteLine("Yaş değeri negatif olamaz.");
         }
     }
-    public string Name
-    {
-        get { return name; }
-        set { name = value; }
-    }
+    public string Name { get { return name; }set { name = value; }}
     public string SurName 
     {
         get { return surName; }
