@@ -42,7 +42,7 @@ namespace todo_app
                 Baslik = "Baslik 1",
                 AtananKisi = "Kisi 1",
                 Icerik = "icerik 1",
-                Board = Board.DONE,
+                Board = Board.TODO,
                 Buyukluk = Buyukluk.M
             });
             ToDoList.Add(new ToDo()
@@ -50,7 +50,7 @@ namespace todo_app
                 Baslik = "Baslik 2",
                 AtananKisi = "Kisi 2",
                 Icerik = "icerik 2",
-                Board = Board.IN_PROGRESS,
+                Board = Board.TODO,
                 Buyukluk = Buyukluk.XS
             });
             ToDoList.Add(new ToDo()
@@ -66,7 +66,7 @@ namespace todo_app
                 Baslik = "Baslik 4",
                 AtananKisi = "Kisi 4",
                 Icerik = "icerik 4",
-                Board = Board.TODO,
+                Board = Board.IN_PROGRESS,
                 Buyukluk = Buyukluk.XL
             });
         }
