@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\bin\Debug\net6.0\enum.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\bin\Debug\net6.0\enum.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\bin\Debug\net6.0\enum.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\bin\Debug\net6.0\enum.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\bin\Debug\net6.0\enum.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\refint\enum.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\enum.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\enum\enum\obj\Debug\net6.0\ref\enum.dll
