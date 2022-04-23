@@ -123,6 +123,7 @@ namespace todo_app
             {
                 Console.WriteLine("Hatalı girişler yaptınız!");
                 Console.Clear();
+                Thread.Sleep(2000);
                 BoardListele();
             }
             else
@@ -133,6 +134,8 @@ namespace todo_app
                 toDo.Board = Board.TODO;
                 toDo.Buyukluk = buyuklukEnum;
                 toDos.AddTodo(toDo);
+                Thread.Sleep(3000);
+                BoardListele();
             }
         }
         public void KartTasi()
@@ -205,7 +208,6 @@ basla:
                 Thread.Sleep(3000);
                 Console.Clear();
                 BoardListele();
-
             }
         }
         public void BoarddanKartSil()
