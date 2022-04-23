@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\bin\Debug\net6.0\encapsulation-ve-property.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\bin\Debug\net6.0\encapsulation-ve-property.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\bin\Debug\net6.0\encapsulation-ve-property.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\bin\Debug\net6.0\encapsulation-ve-property.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\bin\Debug\net6.0\encapsulation-ve-property.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\refint\encapsulation-ve-property.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\encapsulation-ve-property.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\encapsulation-ve-property\encapsulation-ve-property\obj\Debug\net6.0\ref\encapsulation-ve-property.dll
