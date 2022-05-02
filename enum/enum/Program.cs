@@ -1,4 +1,5 @@
-﻿Gunler gun = Gunler.Pazar;
+﻿
+Gunler gun = Gunler.Pazar;
 switch (DateTime.Now.DayOfWeek)
 {
     case DayOfWeek.Monday:
