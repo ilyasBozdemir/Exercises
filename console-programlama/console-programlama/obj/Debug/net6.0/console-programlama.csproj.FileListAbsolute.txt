@@ -1,0 +1,15 @@
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\bin\Debug\net6.0\console-programlama.exe
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\bin\Debug\net6.0\console-programlama.deps.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\bin\Debug\net6.0\console-programlama.runtimeconfig.json
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\bin\Debug\net6.0\console-programlama.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\bin\Debug\net6.0\console-programlama.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.csproj.AssemblyReference.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.AssemblyInfoInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.AssemblyInfo.cs
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.csproj.CoreCompileInputs.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\refint\console-programlama.dll
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.pdb
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\console-programlama.genruntimeconfig.cache
+D:\GitHub\PatikaApp\CSHARP\Exercises\console-programlama\console-programlama\obj\Debug\net6.0\ref\console-programlama.dll
